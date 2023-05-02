@@ -10,6 +10,8 @@ import shoppingmall.demo.dto.ItemFormDto;
 import shoppingmall.demo.entity.BaseEntity;
 import shoppingmall.demo.entity.constant.ItemSellStatus;
 
+import java.util.List;
+
 @Entity
 @Table(name="item")
 @Getter
@@ -37,6 +39,16 @@ public class Item extends BaseEntity {
 
     @Enumerated(EnumType.STRING)
     private ItemSellStatus itemSellStatus; //상품 판매 상태
+
+    @ManyToMany
+    @JoinTable(
+            name="member_item",
+            joinColumns = @JoinColumn(name="member_id"),
+            inverseJoinColumns = @JoinColumn(name="item_id")
+    )
+    private List<Member> member;
+
+
 
     public void updateItem(ItemFormDto itemFormDto){
         this.itemNm = itemFormDto.getItemNm();
