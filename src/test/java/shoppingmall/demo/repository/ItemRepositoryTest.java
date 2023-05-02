@@ -11,7 +11,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.test.context.TestPropertySource;
 import org.thymeleaf.util.StringUtils;
 import shoppingmall.demo.entity.Item;
-import shoppingmall.demo.entity.ItemSellStatus;
+import shoppingmall.demo.entity.constant.ItemSellStatus;
 import shoppingmall.demo.entity.QItem;
 
 import javax.persistence.EntityManager;

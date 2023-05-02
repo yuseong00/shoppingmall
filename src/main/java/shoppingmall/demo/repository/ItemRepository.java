@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 import org.springframework.data.repository.query.Param;
 import shoppingmall.demo.entity.Item;
-import shoppingmall.demo.entity.ItemSellStatus;
+import shoppingmall.demo.entity.constant.ItemSellStatus;
 import shoppingmall.demo.entity.QItem;
 import org.apache.commons.lang3.StringUtils;
 
