@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Getter @Setter
-public class ItemFormDto {
+public class ItemFormDto { // ItemFormDto 클래스는 상품 등록, 수정 시 사용하는 DTO 클래스입니다.
 
     private Long id;
 

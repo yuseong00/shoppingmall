@@ -12,8 +12,8 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.util.List;
 
-public interface ItemRepository extends JpaRepository<Item, Long> ,
-        QuerydslPredicateExecutor<Item> {
+public interface ItemRepository extends JpaRepository<Item, Long>,
+        QuerydslPredicateExecutor<Item>, ItemRepositoryCustom {
 
 
 

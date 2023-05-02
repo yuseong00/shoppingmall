@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter @Setter
-public class CartDetailDto {
+public class CartDetailDto { // CartDetailDto 클래스는 장바구니에 담긴 상품 정보를 담는 클래스입니다.
 
     private Long cartItemId; //장바구니 상품 아이디
 

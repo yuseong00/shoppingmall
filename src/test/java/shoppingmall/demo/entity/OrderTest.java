@@ -1,16 +1,15 @@
 package shoppingmall.demo.entity;
 
-import com.shop.constant.ItemSellStatus;
-import com.shop.repository.ItemRepository;
-import com.shop.repository.MemberRepository;
-import com.shop.repository.OrderItemRepository;
-import com.shop.repository.OrderRepository;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.transaction.annotation.Transactional;
+import shoppingmall.demo.entity.constant.ItemSellStatus;
+import shoppingmall.demo.repository.ItemRepository;
+import shoppingmall.demo.repository.MemberRepository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityNotFoundException;

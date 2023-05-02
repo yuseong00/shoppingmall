@@ -7,7 +7,7 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 
 @Getter @Setter
-public class CartItemDto {
+public class CartItemDto { // CartItemDto 클래스는 장바구니에 담긴 상품 정보를 담는 클래스입니다.
 
     @NotNull(message = "상품 아이디는 필수 입력 값 입니다.")
     private Long itemId;

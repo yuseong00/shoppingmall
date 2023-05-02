@@ -7,7 +7,8 @@ import shoppingmall.demo.entity.ItemImg;
 
 import java.util.List;
 
-public interface ItemImgRepository extends JpaRepository<ItemImg, Long> {
+public interface ItemImgRepository extends JpaRepository<ItemImg, Long>
+{
 
     List<ItemImg> findByItemIdOrderByIdAsc(Long itemId);
 

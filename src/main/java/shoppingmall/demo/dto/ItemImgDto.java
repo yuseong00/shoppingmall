@@ -6,7 +6,7 @@ import org.modelmapper.ModelMapper;
 import shoppingmall.demo.entity.ItemImg;
 
 @Getter @Setter
-public class ItemImgDto {
+public class ItemImgDto { // ItemImgDto 클래스는 상품 이미지 정보를 담는 클래스입니다.
 
     private Long id;
 
